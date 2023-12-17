@@ -1,0 +1,805 @@
+@media only screen and (max-width :320px) {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  #header-container-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 50px;
+    font-weight: 300;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    
+  }
+  #navbar-container-div {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80px;
+  }
+  #navbar-container-div  input {
+    min-width: 300px;
+    text-overflow: ellipsis;
+    outline: none;
+    margin: 5px 0px;
+  }
+  #selection-container-div {
+    
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0px;
+  }
+  #selection-container-div select {
+    min-height: 40px;
+    outline: none;
+    min-width: 230px;
+
+    width: fit-content;
+  }
+
+
+
+  /* content-div */
+
+  #universal-cotent-div {
+    margin: 0px 1rem;
+  }
+
+
+  #hosting-cardAll-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  #hosting-SpeCard-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #hosting-SpecRegion-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #hosting-clicked-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #mapping-master-div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  #mapping-image-div {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 100%;
+    
+  }
+  #mapping-image-div img {
+    width: 100%;
+    height: 200px;
+
+   
+  }
+  #mapping-major-content-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 1rem 0px;
+  }
+  #mapping-content-detail-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #mapping-content-detail-1 span {
+    display:  inline-flex;
+    gap: 10px;
+    font-weight: 400;;
+  }
+
+
+
+
+  #mapping-major-border-div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+  }
+  #mapping-border-image-div {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 100%;
+  }
+  #mapping-border-image-div  img {
+    width: 100%;
+    height: 200px;
+
+  }
+  #mapping-master-border-content-div {
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+  }
+  #mapping-content-border-1 {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0.5rem 0px;
+  }
+}
+
+@media only screen and (min-width :321px) and (max-width : 375px) {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  #header-container-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 50px;
+    font-weight: 300;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    
+  }
+  #navbar-container-div {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80px;
+  }
+  #navbar-container-div  input {
+    min-width: 330px;
+    max-width: 330px;
+    text-overflow: ellipsis;
+    outline: none;
+    margin: 5px 0px;
+  }
+  #selection-container-div {
+    
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0px;
+  }
+  #selection-container-div select {
+    min-height: 40px;
+    outline: none;
+    min-width: 230px;
+
+    width: fit-content;
+  }
+
+
+
+  /* content-div */
+
+  #universal-cotent-div {
+    margin: 0px 1rem;
+  }
+
+
+  #hosting-cardAll-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  #hosting-SpeCard-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #hosting-SpecRegion-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #mapping-master-div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  #mapping-image-div {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 100%;
+    
+  }
+  #mapping-image-div img {
+    width: 100%;
+    height: 200px;
+
+   
+  }
+  #mapping-major-content-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 1rem 0px;
+  }
+  #mapping-content-detail-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #mapping-content-detail-1 span {
+    display:  inline-flex;
+    gap: 10px;
+    font-weight: 400;;
+  }
+
+
+  #mapping-major-border-div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+  }
+  #mapping-border-image-div {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 100%;
+  }
+  #mapping-border-image-div  img {
+    width: 100%;
+    height: 200px;
+
+  }
+  #mapping-master-border-content-div {
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+  }
+  #mapping-content-border-1 {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0.5rem 0px;
+  }
+}
+@media only screen and (min-width :376px) and (max-width: 425px) {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  #header-container-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 50px;
+    font-weight: 300;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    
+  }
+  #navbar-container-div {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80px;
+  }
+  #navbar-container-div  input {
+    min-width: 380px;
+    min-height: 60px;
+    text-overflow: ellipsis;
+    outline: none;
+    margin: 5px 0px;
+  }
+  #selection-container-div {
+    
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0px;
+  }
+  #selection-container-div select {
+    min-height: 40px;
+    outline: none;
+    min-width: 230px;
+
+    width: fit-content;
+  }
+
+
+
+  /* content-div */
+
+  #universal-cotent-div {
+    margin: 0px 1rem;
+  }
+
+
+  #hosting-cardAll-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  #hosting-SpeCard-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #hosting-SpecRegion-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #mapping-master-div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  #mapping-image-div {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 100%;
+    
+  }
+  #mapping-image-div img {
+    width: 100%;
+    height: 200px;
+
+   
+  }
+  #mapping-major-content-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 1rem 0px;
+  }
+  #mapping-content-detail-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #mapping-content-detail-1 span {
+    display:  inline-flex;
+    gap: 10px;
+    font-weight: 400;;
+  }
+
+
+
+  #mapping-major-border-div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+  }
+  #mapping-border-image-div {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 100%;
+  }
+  #mapping-border-image-div  img {
+    width: 100%;
+    height: 200px;
+
+  }
+  #mapping-master-border-content-div {
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+  }
+  #mapping-content-border-1 {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0.5rem 0px;
+  }
+}
+
+@media only screen and (min-width :426px) and (max-width: 768px) {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  #header-container-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 50px;
+    font-weight: 300;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    
+  }
+  #navbar-container-div {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80px;
+  }
+  #navbar-container-div  input {
+    min-width: 550px;
+    max-width: 580px;
+    font-size: larger;
+    min-height: 70px;
+    text-overflow: ellipsis;
+    outline: none;
+    margin: 5px 0px;
+  }
+  #selection-container-div {
+    
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0px;
+  }
+  #selection-container-div select {
+    min-height: 50px;
+    outline: none;
+    min-width: 270px;
+
+    width: fit-content;
+  }
+
+
+
+  /* content-div */
+
+  #universal-cotent-div {
+    margin: 0px 1rem;
+  }
+
+
+  #hosting-cardAll-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+  }
+  #hosting-SpeCard-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #hosting-clicked-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #hosting-SpecRegion-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #mapping-master-div {
+    display: flex;
+    gap: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  #mapping-image-div {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 100%;
+    
+  }
+  #mapping-image-div img {
+    width: 100%;
+    height: 200px;
+
+   
+  }
+  #mapping-major-content-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 1rem 0px;
+  }
+  #mapping-content-detail-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #mapping-content-detail-1 span {
+    display:  inline-flex;
+    gap: 10px;
+    font-weight: 400;;
+  }
+
+
+  #mapping-major-border-div {
+    display: flex;
+    gap: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  #mapping-border-image-div {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 100%;
+    
+  }
+  #mapping-border-image-div  img {
+    width: 100%;
+    height: 200px;
+
+  }
+  #mapping-master-border-content-div {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+  #mapping-content-border-1 {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0.2rem 0px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #universal-div {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  #header-container-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 50px;
+    font-weight: 300;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    
+  }
+  #navbar-container-div {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80px;
+  }
+  #navbar-container-div  input {
+    min-width: 650px;
+    max-width: 680px;
+    font-size: larger;
+    min-height: 70px;
+    text-overflow: ellipsis;
+    outline: none;
+    margin: 5px 0px;
+  }
+  #selection-container-div {
+    
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0px;
+  }
+  #selection-container-div select {
+    min-height: 70px;
+    outline: none;
+    min-width: 270px;
+    font-size: larger;
+    width: fit-content;
+  }
+
+
+
+  /* content-div */
+
+  #universal-cotent-div {
+    margin: 1rem 1rem;
+  }
+
+
+  #hosting-cardAll-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  #hosting-SpeCard-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+   #hosting-clicked-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #hosting-SpecRegion-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  #mapping-major-border-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    min-width: 900px;
+    min-height: 300px;
+  }
+  #mapping-master-div {
+    display: flex;
+    gap: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  #mapping-border-image-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    min-height: 300px;
+    max-height: 300px;
+    width: 100%;
+
+    max-width: 400px;
+  }
+  #mapping-image-div {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 100%;
+    
+  }
+  #mapping-image-div img {
+    width: 100%;
+    height: 200px;
+
+   
+  }
+
+  #mapping-border-border-div {
+    display: flex;
+  }
+  #mapping-host-border-div {
+   display:grid;
+   grid-template-columns: auto auto auto auto;
+   margin: 0.5rem;
+   grid-column-gap: 15px;
+   grid-row-gap: 10px;
+
+  }
+  #content-border-detail-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 1rem;
+  }
+  #mapping-border-image-div  img {
+    width: 400px;
+    height: 250px;
+
+  }
+  #mapping-major-content-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 1rem 0px;
+  }
+  #mapping-border-major-content-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 1rem 0px;
+
+  }
+  #mapping-content-detail-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  #mapping-master-border-content-div {
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+  }
+  #mapping-content-border-1 {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0.5rem 0px;
+  }
+  #mapping-content-detail-1 span {
+    display:  inline-flex;
+    gap: 10px;
+    font-weight: 400;;
+  }
+}
