@@ -117,7 +117,7 @@ console.log(props)
         return  <div  onClick={() => ClickedChanges(details.name)} className=' shadow-md dark:shadow-slate-300 shadow-slate-800' id='mapping-master-div'>
        
         <div id='mapping-image-div'> {/* image div */}
-              <img src={details.flag.png} alt="" />
+              <img src={details.flags.svg} alt="" />
         </div>
 
         <div id='mapping-major-content-div'> {/* content div */}
@@ -175,7 +175,7 @@ console.log(props)
     return  <div  onClick={() => ClickedChanges('border')} className=' shadow-md dark:shadow-slate-300 shadow-slate-800' id='mapping-master-div'>
    
     <div id='mapping-image-div'> {/* image div */}
-          <img src={details.flag.png} alt="" />
+          <img src={details.flags.svg} alt="" />
     </div>
 
     <div id='mapping-major-content-div'> {/* content div */}
@@ -232,7 +232,7 @@ if(props = 'Region') {
      return  <div onClick={() => ClickedChanges(details.name)} className=' shadow-md dark:shadow-slate-300 shadow-slate-800' id='mapping-master-div'>
     
      <div id='mapping-image-div'> {/* image div */}
-           <img src={details.flag.png} alt="" />
+           <img src={details.flags.svg} alt="" />
      </div>
 
      <div id='mapping-major-content-div'> {/* content div */}
@@ -282,7 +282,7 @@ if(props = 'Region') {
      return  <div className=' shadow-md dark:shadow-slate-300 shadow-slate-800' id='mapping-master-div'>
     
      <div id='mapping-image-div'> {/* image div */}
-           <img src={details.flag.png} alt="" />
+           <img src={details.flags.svg} alt="" />
      </div>
 
      <div id='mapping-major-content-div'> {/* content div */}
@@ -357,7 +357,7 @@ console.log(InputData.alpha3Code)
     
      <div id='mapping-border-image-div'> {/* image div */}
      
-           <img src={details.flag.png} alt="" />
+           <img src={details.flags.svg} alt="" />
      </div>
 
      <div id='mapping-border-major-content-div'> {/* content div */}
@@ -427,7 +427,7 @@ var identity = 'kenji';
       <div value={details.name} name='clickedName' onClick={() => ClickedChanges(details.name)}  className=' shadow-md dark:shadow-slate-300 shadow-slate-800' id='mapping-master-div'>
        
         <div id='mapping-image-div'> {/* image div */}
-              <img src={details.flag.png} alt="" />
+              <img src={details.flags.svg} alt="" />
         </div>
 
         <div id='mapping-major-content-div'> {/* content div */}
